@@ -21,3 +21,4 @@ data/y_c_train/
 !data/inpainting_examples/
 
 eval-scripts/NudeNet/*
+eval-scripts/NudeNet/
