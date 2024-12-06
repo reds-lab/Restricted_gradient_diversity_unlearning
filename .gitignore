@@ -1,0 +1,21 @@
+# Python-specific ignores
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.log
+
+# Data directory ignores
+data/*.zip
+data/y_*/
+data/y_train/
+data/y_c_train/
+
+# Exceptions - files to keep
+!data/*.json
+!data/*.ttf
+!data/*.p
+!data/*.yaml
+!data/example_conditioning/
+!data/inpainting_examples/
