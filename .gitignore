@@ -19,3 +19,5 @@ data/y_c_train/
 !data/*.yaml
 !data/example_conditioning/
 !data/inpainting_examples/
+
+eval-scripts/NudeNet/*
