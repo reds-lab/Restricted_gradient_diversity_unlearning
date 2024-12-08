@@ -46,6 +46,6 @@ git clone https://github.com/reds-lab/Restricted_gradient_diversity_unlearning.g
 ## Run 
 
 ```bash
-./scripts/run-surgery.sh
+./scripts/run_surgery.sh
 ```
 
