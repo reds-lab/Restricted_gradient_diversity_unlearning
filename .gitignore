@@ -22,3 +22,8 @@ data/y_c_train/
 
 eval-scripts/NudeNet/*
 eval-scripts/NudeNet/
+CIFAR/data/
+CIFAR/models/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+**/*-checkpoint.*
