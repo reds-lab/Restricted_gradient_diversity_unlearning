@@ -28,10 +28,13 @@ Download the required model weights with
 ```bash
 wget https://nvlabs-fi-cdn.nvidia.com/edm/pretrained/edm-cifar10-32x32-cond-vp.pkl
 ```
+into the `./models` folder.
 
-Download the data with 
-
-and place them into ./models and ./data respectively.
+Prepare the CIFAR10 dataset via the instructions [here](https://github.com/NVlabs/edm?tab=readme-ov-file#preparing-datasets) or download our precomputed .zip file from 
+```
+https://drive.google.com/drive/folders/1QyUz0hhPfthNVPn1N5V-t4lWQNifYDbf?usp=sharing
+```
+and place it into the `./data` folder.
     
 ### 2. Our Implementation
 
