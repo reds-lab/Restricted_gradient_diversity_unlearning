@@ -42,18 +42,18 @@ Add our custom implementation on top of the original stable-diffusion codebase:
 git clone https://github.com/reds-lab/Restricted_gradient_diversity_unlearning.git
 
 # Replace the 'ldm' and 'configs' directories with our versions
-cp -r Restricted_gradient_diversity_unlearning/ldm/* stable-diffusion/ldm/
-cp -r Restricted_gradient_diversity_unlearning/configs/* stable-diffusion/configs/
+cp -r Restricted_gradient_diversity_unlearning/SD/ldm/* ldm/
+cp -r Restricted_gradient_diversity_unlearning/SD/configs/* configs/
 
 # Add directories that do not exist originally (train-scripts, eval-scripts, data)
-cp -r Restricted_gradient_diversity_unlearning/train-scripts stable-diffusion/
-cp -r Restricted_gradient_diversity_unlearning/eval-scripts stable-diffusion/
-cp -r Restricted_gradient_diversity_unlearning/data stable-diffusion/
+cp -r Restricted_gradient_diversity_unlearning/SD/train-scripts ./
+cp -r Restricted_gradient_diversity_unlearning/SD/eval-scripts ./
+cp -r Restricted_gradient_diversity_unlearning/SD/data ./
 
 # Add additional files to the main stable-diffusion directory
-cp Restricted_gradient_diversity_unlearning/diffusers_unet_config.json stable-diffusion/
-cp Restricted_gradient_diversity_unlearning/run-surgery.sh stable-diffusion/
-cp Restricted_gradient_diversity_unlearning/utils.py stable-diffusion/
+cp Restricted_gradient_diversity_unlearning/SD/diffusers_unet_config.json ./
+cp Restricted_gradient_diversity_unlearning/SD/run-surgery.sh ./
+cp Restricted_gradient_diversity_unlearning/SD/utils.py ./
 ```
 
 ### 4. Run 
