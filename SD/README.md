@@ -62,6 +62,7 @@ cp Restricted_gradient_diversity_unlearning/SD/utils.py ./
   ./run-surgery.sh
 ```
 
+Note: if you have different data (y_train and y_c_train), we recommend tuning the hyperparameters (ALPHA and m in the bash file).
 
 ## Troubleshooting
 
