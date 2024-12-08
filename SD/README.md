@@ -62,10 +62,6 @@ cp Restricted_gradient_diversity_unlearning/utils.py stable-diffusion/
   ./run-surgery.sh
 ```
 
-## Contact
-
-For any questions, issues, or inquiries, please contact [myeongseob@vt.edu](mailto:myeongseob@vt.edu).
-
 
 ## Troubleshooting
 
@@ -96,15 +92,6 @@ To :    t = t.to('cpu')
         logvar_t = self.logvar[t].to(self.device)
 ```
 
-## Citation
 
-If you find this repository or the ideas presented in our paper useful, please consider citing:
 
-```bibtex
-@article{heng2024boosting,
-  title={Boosting Alignment for Post-Unlearning Text-to-Image Generative Models},
-  author={Heng, Alvin and Soh, Harold},
-  journal={arXiv preprint arXiv:2301.10120},
-  year={2024}
-}
 
